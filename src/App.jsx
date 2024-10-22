@@ -4,7 +4,7 @@ import { config } from './config'
 import { WalletOptions } from './WalletOptions'
 import Allcard from './Allcard'
 import Navbar from './Navbar'
-import Footer from './Footer'
+// import Footer from './Footer'
 import  Home  from './Home'
 
 const queryClient = new QueryClient()

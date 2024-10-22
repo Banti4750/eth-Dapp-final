@@ -4,7 +4,7 @@ import { useAccount, useBalance, useDisconnect, useEnsAvatar, useEnsName } from 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sendeth from './Sendeth';
 import Navbar from './Navbar';
-import Footer from './Footer';
+// import Footer from './Footer';
 import ShowEth from './ShowEth';
 import Receive from './component/Receive';
 import { useNavigate } from 'react-router-dom';
@@ -71,7 +71,7 @@ const Allcard = () => {
                     </Routes>
                     
                     {/* Footer remains static on all routes */}
-                    <Footer />
+                    {/* <Footer /> */}
                 </div>
             </div>
         </Router>
